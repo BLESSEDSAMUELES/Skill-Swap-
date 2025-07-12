@@ -1,0 +1,248 @@
+
+.home-container {
+  padding: 20px;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filters input, .filters select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user-card {
+  background: #1e1e1e;
+  padding: 16px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.profile-photo {
+  width: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.tag {
+  background: #444;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin: 0 4px 4px 0;
+  display: inline-block;
+}
+
+.tag.wanted {
+  background: #2a4d9b;
+}
+
+.rating {
+  margin-top: 10px;
+  color: gold;
+}
+
+.request-button {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  width: 100%;
+}
+
+.request-button:disabled {
+  background: #555;
+}
+
+.pagination {
+  margin-top: 30px;
+  display: flex;
+  gap: 8px;
+}
+
+.page {
+  background: #333;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.login-card {
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-card input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+.login-card button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.forgot {
+  color: #ccc;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.home-btn {
+  background-color: #444;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.profile-container {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+.location {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.tag-section {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.tag-group {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.profile-type {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.edit-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.status-tag {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+.status-tag.pending {
+  background-color: orange;
+}
+
+.status-tag.accepted {
+  background-color: green;
+}
+
+.status-tag.rejected {
+  background-color: red;
+}
+
+.request-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.btn-row {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+

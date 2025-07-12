@@ -1,6 +1,6 @@
 # Skill-Swap-
+
 1st round of Odoo Hackathon
-Problem Statement :
-Skill Swap
+Problem Statement : Skill Swap
 a Skill Swap Platform — a mini application that enables users to list their skills and
 request others in return
